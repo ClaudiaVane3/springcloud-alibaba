@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>vane.spring.cloud.alibaba</groupId>
-    <artifactId>mocc-data</artifactId>
+    <artifactId>springcloud-alibaba</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
