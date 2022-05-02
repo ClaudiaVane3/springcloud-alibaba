@@ -27,4 +27,16 @@ public class Order {
   private Double pprice; // 商品单价
 
   private Integer number; // 购买数量
+
+  public Order() {}
+
+  public Order(
+      Integer uid, String username, Integer pid, String pname, Double pprice, Integer number) {
+    this.uid = uid;
+    this.username = username;
+    this.pid = pid;
+    this.pname = pname;
+    this.pprice = pprice;
+    this.number = number;
+  }
 }
