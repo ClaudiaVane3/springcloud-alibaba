@@ -4,5 +4,5 @@ import vane.shop.common.entity.Product;
 
 public interface ProductService {
 
-    public Product findByPid(Integer pid);
+  Product findByPid(Integer pid);
 }
